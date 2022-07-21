@@ -7,6 +7,8 @@ int main()
 	scanf("%d",&n);
 	printf("enter a digit ");
 	scanf("%d",&d);
-	printf("after appending, the result is %d%d",n,d);
+	n=n*10;
+	n=n+d;
+	printf("after appending, the result is %d",n);
 	return 0;
 }
